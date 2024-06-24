@@ -6,231 +6,2181 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-  <link rel="stylesheet" href="./css/immo.css">
-  <link rel="icon" type="image/png" href="./Assets/logo.png">
-  <title>Immocrea'Luxe.fr</title>
+  <link rel="stylesheet" href="../css/immo.css">
+  <link rel="icon" type="image/png" href="../images/logo.png">
+  <title>site immobilier</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
   <script src='https://kenwheeler.github.io/slick/slick/slick.js' defer></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js" defer></script>
-  <script src="../javascrip/immo2.js" defer></script>
+  <script src="../javascrip/immo.js" defer></script>
 </head>
 
 <body>
-  <div class="container_burger">
-    <img src="./assets/logo.png" alt="logo">
-    <div id="mySidenav" class="sidenav">
-      <div id="closeBtn" href="#" class="close"><p>&times;</p></div>
-      <ul>
-        <li><a class="js-scrollTo" href="index.html #secteur2">Nos secteurs</a></li>
-        <li><a class="js-scrollTo" href="index.html #nosbien2">Nos biens</a></li>
-        <li><a class="js-scrollTo" href="index.html #agents">Nos agents</a></li>
-        <li><a class="js-scrollTo" href="index.html #trouver">Nous trouver</a></li>
-      </ul>
+    <div class="container_burger">
+      <img src="../images/logo.png" alt="logo">
+      <div id="mySidenav" class="sidenav">
+        <div id="closeBtn" href="#" class="close"><p>&times;</p></div>
+        <ul>
+          <li><a class="js-scrollTo" href="#secteur2">Nos secteurs</a></li>
+          <li><a class="js-scrollTo" href="#nosbien2">Nos biens</a></li>
+          <li><a class="js-scrollTo" href="#agents">Nos agents</a></li>
+          <li><a class="js-scrollTo" href="#trouver">Nous trouver</a></li>
+        </ul>
+      </div>
+      <div id="openBtn">
+        <span class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
     </div>
-    <div id="openBtn">
-      <span class="burger-icon">
-        <span></span>
-        <span></span>
-        <span></span>
-      </span>
-  </div>
-  </div>
-  <div class="headerresponsive">
-    <img src="./assets/imoblanc.png" alt="">
+    </div>
+    <div class="headerresponsive">
+      <img src="../images/imoblanc.png" alt="">
+    </div>
+
+  <div class="navigation2" id="nav2">
+    <img class="navdeuxlogo" src="../images/logo blanc.png" alt="">
+    <img class="navdeuxlogodark" src="../images/logo2blanc.png" alt="">
+    <nav>
+      <div class="nav2">
+        <ul>
+          <li><a class="js-scrollTo" href="#secteur">Nos secteurs</a></li>
+          <li><a class="js-scrollTo" href="#nosbien">Nos biens</a>
+          </li>
+          <li><a class="js-scrollTo" href="#agents">Nos agents</a>
+          </li>
+          <li><a class="js-scrollTo" href="#trouver">Nous trouver</a></li>
+        </ul>
+      </div>
+    </nav>
   </div>
 
-<div class="navigation">
-  <nav>
-    <a href="index.html"><img src="./assets/logo.png" alt="logo" id="logoagence"></a>
-    <a href="index.html"><img src="./assets/logogold.png" alt="logo" id="logoagencedark"></a>
-    <div class="nav">
+
+  <div class="navigation">
+    <nav>
+      <a href="index.html"><img src="../images/logo.png" alt="logo" id="logoagence"></a>
+      <a href="index.html"><img src="../images/logogold.png" alt="logo" id="logoagencedark"></a>
+      <div class="nav">
+        <ul>
+          <li><a class="js-scrollTo navtop" href="#secteur" id="darknav">Nos secteurs</a></li>
+          <li><a class="js-scrollTo navtop" href="#nosbien">Nos biens</a>
+          </li>
+          <li><a class="js-scrollTo navtop" href="#agents">Nos agents</a>
+          </li>
+          <li><a class="js-scrollTo navtop" href="#trouver">Nous trouver</a></li>
+        </ul>
+      </div>
+      <img id="lightmode" class="boutondark" src="../images/lightmode.png" alt="">
+      <img id="darkmode" class="boutondark" src="../images/darkmode.png" alt="">
+    </nav>
+    <div class="clear"></div>
+    <img id="imologolight" class="imologo" src="../images/imoblanc.png" alt="">
+    <a class="js-scrollTo" href="#secteur" id="boutonbas"><img src="../images/boutonbas.png" alt="bouton bas"></a>
+  </div>
+
+
+  <nav class="navigation_ville" id="secteur">
+    <div class="nav_ville">
       <ul>
-        <li><a class="js-scrollTo navtop" href="index.html #secteur" id="darknav">Nos secteurs</a></li>
-        <li><a class="js-scrollTo navtop" href="index.html #nosbien">Nos biens</a>
-        </li>
-        <li><a class="js-scrollTo navtop" href="index.html #agents">Nos agents</a>
-        </li>
-        <li><a class="js-scrollTo navtop" href="index.html #trouver">Nous trouver</a></li>
+        <li id="openlillecentre" class="darkville">Lille centre</li>
+        <li id="openlillemetro" class="darkville">Lille metropole</li>
+        <li id="openarras" class="darkville">Arras</li>
+        <li id="opentouquet" class="darkville">Le Touquet</li>
       </ul>
     </div>
-    <img id="lightmode" class="boutondark" src="./assets/lightmode.png" alt="">
-    <img id="darkmode" class="boutondark" src="./assets/darkmode.png" alt="">
   </nav>
-  <div class="clear"></div>
-  <img id="imologolight" class="imologo" src="./assets/imoblanc.png" alt="">
-  <a class="js-scrollTo" href="#secteur" id="boutonbas"><img src="./Assets/boutonbas.png" alt="bouton bas"></a>
-</div>
-<div class="visiteréalitévirtuelle">
-  <div class="centervr">
-    <h1>VISITE REALITE VIRTUELLE</h1>
-    <P>Découvrez en détail nos maisons grâce à la réalité virtuelle</P>
-    <iframe src="https://www.youtube.com/embed/nSKKhdmVgqI" title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
-    <span></span>
+  <nav class="navigation_villedeux" id="secteur2">
+    <div class="nav_ville">
+      <ul>
+        <li id="openlillecentredeux" class="darkville">Lille centre</li>
+        <li id="openlillemetrodeux" class="darkville">Lille metropole</li>
+        <li id="openarrasdeux" class="darkville">Arras</li>
+        <li id="opentouquetdeux" class="darkville">Le Touquet</li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <section class="containr_maison" id="nosbien">
+    <section class="maisonlille" id="lillecentre">
+      <h1 id="titre_maison">LILLE CENTRE</h1>
+      <p id="description_maison">Liste des maisons disponibles</p>
+      <div class="wrapper">
+        <div class="slider-container">
+          <div class="slider-track ">
+
+
+            <div class="slider-item">
+              <div class="product-top">
+                <a data-fancybox="gallery lillecentre" href="../images/appart1image1.webp"><img class="product-imagelillecentre1" alt=""></a>
+                <a data-fancybox="gallery lillecentre" href="../images/appart1image2.webp"></a>
+                <a data-fancybox="gallery lillecentre" href="../images/appart1image3.webp"></a>
+                <a data-fancybox="gallery lillecentre" href="../images/appart1image4.webp"></a>
+                <article id="articlemaison">
+                  <div class="etoile">
+                    <img src="../images/5etoiles.png" alt="">
+                    <h2 id="notemaisonaccueil">5.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison" class="h1articlemaison">Appartement Lille centre</h1>
+                    <p id="detailsmaison">Superficie - 106m² - <strong>498 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-item">
+              <div class="product-top">
+                <a data-fancybox="lillecentre2" href="../images/maison/image1.webp"><img
+                    class="product-imagelillecentre2" alt=""></a>
+                <a data-fancybox="lillecentre2" href="../images/maison/image2.webp"></a>
+                <a data-fancybox="lillecentre2" href="../images/maison/image3.webp"></a>
+                <a data-fancybox="lillecentre2" href="../images/maison/image4.webp"></a>
+                <article id="articlemaison2">
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2 id="notemaisonaccueil">4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Lille grand Palais</h1>
+                    <p id="detailsmaison">Superficie - 166m² - <strong>776 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo2.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-item">
+              <div class="product-top">
+                <a data-fancybox="lillecentre3" href="../images/maisonlille2/image1.webp"><img
+                    class="product-imagelillecentre3" alt=""></a>
+                <a data-fancybox="lillecentre3" href="../images/maisonlille2/image2.webp"></a>
+                <a data-fancybox="lillecentre3" href="../images/maisonlille2/image3.webp"></a>
+                <a data-fancybox="lillecentre3" href="../images/maisonlille2/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4-5etoiles.png" alt="">
+                    <h2>4.5</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Tourcoing</h1>
+                    <p id="detailsmaison">Superficie - 130m² - <strong>920 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-item">
+              <div class="product-top">
+                <a data-fancybox="lillecentre4" href="../images/maisonlille4/image1.webp"><img
+                    class="product-imagelillecentre4" alt=""></a>
+                <a data-fancybox="lillecentre4" href="../images/maisonlille4/image2.webp"></a>
+                <a data-fancybox="lillecentre4" href="../images/maisonlille4/image3.webp"></a>
+                <a data-fancybox="lillecentre4" href="../images/maisonlille4/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4-5etoiles.png" alt="">
+                    <h2>4.5</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Croix</h1>
+                    <p id="detailsmaison">Superficie - 115m² - <strong>660 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-item">
+              <div class="product-top">
+                <a data-fancybox="lillecentre5" href="../images/maisonlille5/image1.webp"><img class="product-imagelillecentre5"alt=""></a>
+                <a data-fancybox="lillecentre5" href="../images/maisonlille5/image2.webp"></a>
+                <a data-fancybox="lillecentre5" href="../images/maisonlille5/image3.webp"></a>
+                <a data-fancybox="lillecentre5" href="../images/maisonlille5/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Villneuve D'ascq</h1>
+                    <p id="detailsmaison">Superficie - 110m² - <strong>560 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-item">
+              <div class="product-top">
+                <a data-fancybox="lillecentre6" href="../images/maisonlille6/image1.webp"><img class="product-imagelillecentre6"alt=""></a>
+                <a data-fancybox="lillecentre6" href="../images/maisonlille6/image2.webp"></a>
+                <a data-fancybox="lillecentre6" href="../images/maisonlille6/image3.webp"></a>
+                <a data-fancybox="lillecentre6" href="../images/maisonlille6/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Roubaix</h1>
+                    <p id="detailsmaison">Superficie - 125m² - <strong>680 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-item">
+              <div class="product-top">
+                <a data-fancybox="lillecentre7" href="../images/maisonlille7/image1.webp"><img class="product-imagelillecentre7"alt=""></a>
+                <a data-fancybox="lillecentre7" href="../images/maisonlille7/image2.webp"></a>
+                <a data-fancybox="lillecentre7" href="../images/maisonlille7/image3.webp"></a>
+                <a data-fancybox="lillecentre7" href="../images/maisonlille7/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/5etoiles.png" alt="">
+                    <h2>5.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Lille centre</h1>
+                    <p id="detailsmaison">Superficie - 200m² - <strong>1 890 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-item">
+              <div class="product-top">
+                <a data-fancybox="lillecentre8" href="../images/maisonlille8/image1.webp"><img class="product-imagelillecentre8"alt=""></a>
+                <a data-fancybox="lillecentre8" href="../images/maisonlille8/image2.webp"></a>
+                <a data-fancybox="lillecentre8" href="../images/maisonlille8/image3.webp"></a>
+                <a data-fancybox="lillecentre8" href="../images/maisonlille8/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/5etoiles.png" alt="">
+                    <h2>5.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison" >Maison Annoeullin</h1>
+                    <p id="detailsmaison">Superficie - 210m² - <strong>1 990 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-item">
+              <div class="product-top">
+                <a data-fancybox="lillecentre9" href="../images/maisonlille9/image1.webp"><img class="product-imagelillecentre9"alt=""></a>
+                <a data-fancybox="lillecentre9" href="../images/maisonlille9/image2.webp"></a>
+                <a data-fancybox="lillecentre9" href="../images/maisonlille9/image3.webp"></a>
+                <a data-fancybox="lillecentre9" href="../images/maisonlille9/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4-5etoiles.png" alt="">
+                    <h2>4.5</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Saint Amand les eaux</h1>
+                    <p id="detailsmaison">Superficie - 115m² - <strong>510 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-item">
+              <div class="product-top">
+                <a data-fancybox="lillecentre10" href="../images/maisonlille10/image1.webp"><img class="product-imagelillecentre10"alt=""></a>
+                <a data-fancybox="lillecentre10" href="../images/maisonlille10/image2.webp"></a>
+                <a data-fancybox="lillecentre10" href="../images/maisonlille10/image3.webp"></a>
+                <a data-fancybox="lillecentre10" href="../images/maisonlille10/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/5etoiles.png" alt="">
+                    <h2>5.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Armentieres</h1>
+                    <p id="detailsmaison">Superficie - 180m² - <strong>1 150 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-buttons">
+          <button class="btn-prev" id="prev">prev</button>
+          <label class="arrow arrowleft" for="prev"><img src="../images/flechedroit.png" alt="left"></label>
+          <button class="btn-next" id="next"></button>
+          <label class="arrow" for="next"><img src="../images/flechedroit.png" alt="right"></label>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="maisonlille" id="lillemetro">
+      <h1 id="titre_maison">LILLE METROPOLE</h1>
+      <p id="description_maison">Liste des maisons disponibles</p>
+      <div class="wrapper">
+        <div class="slider-containerdeux">
+          <div class="slider-trackdeux ">
+            <div class="slider-itemdeux">
+              <div class="product-top">
+          <a data-fancybox="lillemetro1" href="../images/lillemetro1/image1.webp"><img class="product-imagelillemetro1"alt=""></a>
+          <a data-fancybox="lillemetro1" href="../images/lillemetro1/image2.webp"></a>
+          <a data-fancybox="lillemetro1" href="../images/lillemetro1/image3.webp"></a>
+          <a data-fancybox="lillemetro1" href="../images/lillemetro1/image4.webp"></a>
+          <article>
+            <div class="etoile">
+              <img src="../images/4etoiles.png" alt="">
+              <h2>4.0</h2>
+            </div>
+            <span id="darkspanaccueil"></span>
+            <div class="droiteslider" id="agents">
+              <h1 id="darkh1maison">Maison La Chapelle D'Armentieres</h1>
+              <p id="detailsmaison">Superficie - 150m² - <strong>1 290 000€</strong></p>
+              <a href="" class="boutontelecharger">Telecharger le PDF</a>
+            <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+            </div>
+          </article>
+        </div>
+            </div>
+
+              <div class="slider-itemdeux">
+                <div class="product-top">
+                  <a data-fancybox="lillemetro2" href="../images/lillemetro2/image1.webp"><img class="product-imagelillemetro2"alt=""></a>
+                  <a data-fancybox="lillemetro2" href="../images/lillemetro2/image2.webp"></a>
+                  <a data-fancybox="lillemetro2" href="../images/lillemetro2/image3.webp"></a>
+                  <a data-fancybox="lillemetro2" href="../images/lillemetro2/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/5etoiles.png" alt="">
+                      <h2>5.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Lomme</h1>
+                      <p id="detailsmaison">Superficie - 186m² - <strong>3 540 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                      <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemdeux">
+                <div class="product-top">
+                  <a data-fancybox="lillemetro3" href="../images/lillemetro3/image1.webp"><img class="product-imagelillemetro3"alt=""></a>
+                  <a data-fancybox="lillemetro3" href="../images/lillemetro3/image2.webp"></a>
+                  <a data-fancybox="lillemetro3" href="../images/lillemetro3/image3.webp"></a>
+                  <a data-fancybox="lillemetro3" href="../images/lillemetro3/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Hem</h1>
+                      <p id="detailsmaison">Superficie - 136m² - <strong>590 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemdeux">
+                <div class="product-top">
+                  <a data-fancybox="lillemetro4" href="../images/lillemetro4/image1.webp"><img class="product-imagelillemetro4"alt=""></a>
+                  <a data-fancybox="lillemetro4" href="../images/lillemetro4/image2.webp"></a>
+                  <a data-fancybox="lillemetro4" href="../images/lillemetro4/image3.webp"></a>
+                  <a data-fancybox="lillemetro4" href="../images/lillemetro4/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Seclin</h1>
+                      <p id="detailsmaison">Superficie - 124m² - <strong>460 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemdeux">
+                <div class="product-top">
+                  <a data-fancybox="lillemetro5" href="../images/lillemetro5/image1.webp"><img class="product-imagelillemetro5"alt=""></a>
+                  <a data-fancybox="lillemetro5" href="../images/lillemetro5/image2.webp"></a>
+                  <a data-fancybox="lillemetro5" href="../images/lillemetro5/image3.webp"></a>
+                  <a data-fancybox="lillemetro5" href="../images/lillemetro5/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Gondecourt</h1>
+                      <p id="detailsmaison">Superficie - 115m² - <strong>540 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemdeux">
+                <div class="product-top">
+                  <a data-fancybox="lillemetro6" href="../images/lillemetro6/image1.webp"><img class="product-imagelillemetro6"alt=""></a>
+                  <a data-fancybox="lillemetro6" href="../images/lillemetro6/image2.webp"></a>
+                  <a data-fancybox="lillemetro6" href="../images/lillemetro6/image3.webp"></a>
+                  <a data-fancybox="lillemetro6" href="../images/lillemetro6/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Mouveaux</h1>
+                      <p id="detailsmaison">Superficie - 140m² - <strong>1 210 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemdeux">
+                <div class="product-top">
+                  <a data-fancybox="lillemetro7" href="../images/lillemetro7/image1.webp"><img class="product-imagelillemetro7"alt=""></a>
+                  <a data-fancybox="lillemetro7" href="../images/lillemetro7/image2.webp"></a>
+                  <a data-fancybox="lillemetro7" href="../images/lillemetro7/image3.webp"></a>
+                  <a data-fancybox="lillemetro7" href="../images/lillemetro7/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Faches Thumesnil </h1>
+                      <p id="detailsmaison">Superficie - 117m² - <strong>720 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemdeux">
+                <div class="product-top">
+                  <a data-fancybox="lillemetro8" href="../images/lillemetro8/image1.webp"><img class="product-imagelillemetro8"alt=""></a>
+                  <a data-fancybox="lillemetro8" href="../images/lillemetro8/image2.webp"></a>
+                  <a data-fancybox="lillemetro8" href="../images/lillemetro8/image3.webp"></a>
+                  <a data-fancybox="lillemetro8" href="../images/lillemetro8/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/5etoiles.png" alt="">
+                      <h2>5.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Carnin</h1>
+                      <p id="detailsmaison">Superficie - 156m² - <strong>1 500 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemdeux">
+                <div class="product-top">
+                  <a data-fancybox="lillemetro9" href="../images/lillemetro9/image1.webp"><img class="product-imagelillemetro9"alt=""></a>
+                  <a data-fancybox="lillemetro9" href="../images/lillemetro9/image2.webp"></a>
+                  <a data-fancybox="lillemetro9" href="../images/lillemetro9/image3.webp"></a>
+                  <a data-fancybox="lillemetro9" href="../images/lillemetro9/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Tourcoing</h1>
+                      <p id="detailsmaison">Superficie - 226m² - <strong>2 490 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemdeux">
+                <div class="product-top">
+                  <a data-fancybox="lillemetro10" href="../images/lillemetro10/image1.webp"><img class="product-imagelillemetro10"alt=""></a>
+                  <a data-fancybox="lillemetro10" href="../images/lillemetro10/image2.webp"></a>
+                  <a data-fancybox="lillemetro10" href="../images/lillemetro10/image3.webp"></a>
+                  <a data-fancybox="lillemetro10" href="../images/lillemetro10/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Lille</h1>
+                      <p id="detailsmaison">Superficie - 276m² - <strong>4 210 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+
+
+
+          </div>
+        </div>
+
+        <div class="slider-buttons">
+          <button class="btn-prevdeux" id="prev2">prev</button>
+          <label class="arrow arrowleft" for="prev2"><img src="../images/flechedroit.png" alt="left"></label>
+          <button class="btn-nextdeux" id="next2"></button>
+          <label class="arrow" for="next2"><img src="../images/flechedroit.png" alt="right"></label>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="maisonlille" id="arras">
+      <h1 id="titre_maison">ARRAS</h1>
+      <p id="description_maison">Liste des maisons disponibles</p>
+      <div class="wrapper">
+        <div class="slider-containertrois">
+          <div class="slider-tracktrois ">
+            <div class="slider-itemtrois">
+                <div class="product-top">
+                  <a id="test" data-fancybox="arras" href="../images/maisonarras1/image1.webp"><img class="product-imagearras1"alt=""></a>
+                  <a class="none" data-fancybox="arras" href="../images/maisonarras1/image2.webp"></a>
+                  <a class="none" data-fancybox="arras" href="../images/maisonarras1/image3.webp"></a>
+                  <a class="none" data-fancybox="arras" href="../images/maisonarras1/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/5etoiles.png" alt="">
+                      <h2>5.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Saint Laurent Blangy</h1>
+                      <p id="detailsmaison">Superficie - 116m² - <strong>2 535 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+            </div>
+
+              <div class="slider-itemtrois">
+                <div class="product-top">
+                  <a id="test" data-fancybox="arras2" href="../images/maisonarras2/image1.webp"><img class="product-imagearras2"
+                      alt=""></a>
+                  <a class="none" data-fancybox="arras2" href="../images/maisonarras2/image2.webp"></a>
+                  <a class="none" data-fancybox="arras2" href="../images/maisonarras2/image3.webp"></a>
+                  <a class="none" data-fancybox="arras2" href="../images/maisonarras2/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Arras</h1>
+                      <p id="detailsmaison">Superficie - 130m² - <strong>885 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemtrois">
+                <div class="product-top">
+                  <a id="test" data-fancybox="arras3" href="../images/maisonarras3/image1.webp"><img class="product-imagearras3"
+                      alt=""></a>
+                  <a class="none" data-fancybox="arras3" href="../images/maisonarras3/image2.webp"></a>
+                  <a class="none" data-fancybox="arras3" href="../images/maisonarras3/image3.webp"></a>
+                  <a class="none" data-fancybox="arras3" href="../images/maisonarras3/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4-5etoiles.png" alt="">
+                      <h2>4.5</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>                    
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Sainte-Cathrine </h1>
+                      <p id="detailsmaison">Superficie - 206m² - <strong>2 890 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemtrois">
+                <div class="product-top">
+                  <a id="test" data-fancybox="arras4" href="../images/maisonarras4/image1.webp"><img class="product-imagearras4"
+                      alt=""></a>
+                  <a class="none" data-fancybox="arras4" href="../images/maisonarras4/image2.webp"></a>
+                  <a class="none" data-fancybox="arras4" href="../images/maisonarras4/image3.webp"></a>
+                  <a class="none" data-fancybox="arras4" href="../images/maisonarras4/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/5etoiles.png" alt="">
+                      <h2>5.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>   
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Tilloy-les-Mofflaines</h1>
+                      <p id="detailsmaison">Superficie - 150m² - <strong>2 480 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemtrois">
+                <div class="product-top">
+                  <a id="test" data-fancybox="arras5" href="../images/maisonarras5/image1.webp"><img class="product-imagearras5"
+                      alt=""></a>
+                  <a class="none" data-fancybox="arras5" href="../images/maisonarras5/image2.webp"></a>
+                  <a class="none" data-fancybox="arras5" href="../images/maisonarras5/image3.webp"></a>
+                  <a class="none" data-fancybox="arras5" href="../images/maisonarras5/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span> 
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Dainville </h1>
+                      <p id="detailsmaison">Superficie - 190m² - <strong>1 600 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemtrois">
+                <div class="product-top">
+          <a id="test" data-fancybox="arras6" href="../images/maisonarras6/image1.webp"><img class="product-imagearras6"
+              alt=""></a>
+          <a class="none" data-fancybox="arras6" href="../images/maisonarras6/image2.webp"></a>
+          <a class="none" data-fancybox="arras6" href="../images/maisonarras6/image3.webp"></a>
+          <a class="none" data-fancybox="arras6" href="../images/maisonarras6/image4.webp"></a>
+          <article>
+            <div class="etoile">
+              <img src="../images/4etoiles.png" alt="">
+              <h2>4.0</h2>
+            </div>
+            <span id="darkspanaccueil"></span> 
+            <div class="droiteslider" id="agents">
+              <h1 id="darkh1maison">Maison Achicourt</h1>
+              <p id="detailsmaison">Superficie - 146m² - <strong>1 340 000€</strong></p>
+              <a href="" class="boutontelecharger">Telecharger le PDF</a>
+            <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+            </div>
+          </article>
+        </div>
+              </div>
+
+              <div class="slider-itemtrois">
+                <div class="product-top">
+                  <a id="test" data-fancybox="arras7" href="../images/maisonarras7/image1.webp"><img class="product-imagearras7"
+                      alt=""></a>
+                  <a class="none" data-fancybox="arras7" href="../images/maisonarras7/image2.webp"></a>
+                  <a class="none" data-fancybox="arras7" href="../images/maisonarras7/image3.webp"></a>
+                  <a class="none" data-fancybox="arras7" href="../images/maisonarras7/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span> 
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Feuchy</h1>
+                      <p id="detailsmaison">Superficie - 176m² - <strong>540 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                      <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemtrois">
+                <div class="product-top">
+                  <a id="test" data-fancybox="arras8" href="../images/maisonarras8/image1.webp"><img class="product-imagearras8"
+                      alt=""></a>
+                  <a class="none" data-fancybox="arras8" href="../images/maisonarras8/image2.webp"></a>
+                  <a class="none" data-fancybox="arras8" href="../images/maisonarras8/image3.webp"></a>
+                  <a class="none" data-fancybox="arras8" href="../images/maisonarras8/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span> 
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Arras</h1>
+                      <p id="detailsmaison">Superficie - 310m² - <strong>4 310 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemtrois">
+                <div class="product-top">
+                  <a id="test" data-fancybox="arras9" href="../images/maisonarras9/image1.webp"><img class="product-imagearras9"
+                      alt=""></a>
+                  <a class="none" data-fancybox="arras9" href="../images/maisonarras9/image2.webp"></a>
+                  <a class="none" data-fancybox="arras9" href="../images/maisonarras9/image3.webp"></a>
+                  <a class="none" data-fancybox="arras9" href="../images/maisonarras9/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>                     
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Saint Nicolas</h1>
+                      <p id="detailsmaison">Superficie - 166m² - <strong>646 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemtrois">
+                <div class="product-top">
+                  <a id="test" data-fancybox="arras10" href="../images/maisonarras10/image1.webp"><img class="product-imagearras10"
+                      alt=""></a>
+                  <a class="none" data-fancybox="arras10" href="../images/maisonarras10/image2.webp"></a>
+                  <a class="none" data-fancybox="arras10" href="../images/maisonarras10/image3.webp"></a>
+                  <a class="none" data-fancybox="arras10" href="../images/maisonarras10/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>  
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Arras</h1>
+                      <p id="detailsmaison">Superficie - 186m² - <strong>890 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+
+
+
+          </div>
+        </div>
+
+        <div class="slider-buttons">
+          <button class="btn-prevtrois" id="prev3">prev</button>
+          <label class="arrow arrowleft" for="prev3"><img src="../images/flechedroit.png" alt="left"></label>
+          <button class="btn-nexttrois" id="next3"></button>
+          <label class="arrow" for="next3"><img src="../images/flechedroit.png" alt="right"></label>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="maisonlille" id="touquet">
+      <h1 id="titre_maison">LE TOUQUET</h1>
+      <p id="description_maison">Liste des maisons disponibles</p>
+      <div class="wrapper">
+        <div class="slider-containerquatre">
+          <div class="slider-trackquatre ">
+            <div class="slider-itemquatre">
+              <div class="product-top">
+                <a id="test" data-fancybox="touquet" href="../images/maisontouquet1/image1.webp"><img class="product-imagetouquet1"
+                    alt=""></a>
+                <a class="none" data-fancybox="touquet" href="../images/maisontouquet1/image2.webp"></a>
+                <a class="none" data-fancybox="touquet" href="../images/maisontouquet1/image3.webp"></a>
+                <a class="none" data-fancybox="touquet" href="../images/maisontouquet1/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4-5etoiles.png" alt="">
+                    <h2>4.5</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>  
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Le Touquet</h1>
+                    <p id="detailsmaison">Superficie - 235m² - <strong>1 390 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+              <div class="slider-itemquatre">
+                <div class="product-top">
+                  <a id="test" data-fancybox="touquet2" href="../images/maisontouquet2/image1.webp"><img class="product-imagetouquet2"
+                      alt=""></a>
+                  <a class="none" data-fancybox="touquet2" href="../images/maisontouquet2/image2.webp"></a>
+                  <a class="none" data-fancybox="touquet2" href="../images/maisontouquet2/image3.webp"></a>
+                  <a class="none" data-fancybox="touquet2" href="../images/maisontouquet2/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4-5etoiles.png" alt="">
+                      <h2>4.5</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Cucq</h1>
+                      <p id="detailsmaison">Superficie - 198m² - <strong>995 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemquatre">
+                <div class="product-top">
+                  <a id="test" data-fancybox="touquet3" href="../images/maisontouquet3/image1.webp"><img class="product-imagetouquet3"
+                      alt=""></a>
+                  <a class="none" data-fancybox="touquet3" href="../images/maisontouquet3/image2.webp"></a>
+                  <a class="none" data-fancybox="touquet3" href="../images/maisontouquet3/image3.webp"></a>
+                  <a class="none" data-fancybox="touquet3" href="../images/maisontouquet3/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>                   
+                     <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Ecuires</h1>
+                      <p id="detailsmaison">Superficie - 225m² - <strong>1 450 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemquatre">
+                <div class="product-top">
+                  <a id="test" data-fancybox="touquet4" href="../images/maisontouquet4/image1.webp"><img class="product-imagetouquet4"
+                      alt=""></a>
+                  <a class="none" data-fancybox="touquet4" href="../images/maisontouquet4/image2.webp"></a>
+                  <a class="none" data-fancybox="touquet4" href="../images/maisontouquet4/image3.webp"></a>
+                  <a class="none" data-fancybox="touquet4" href="../images/maisontouquet4/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4-5etoiles.png" alt="">
+                      <h2>4.5</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>                   
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Neufchâtel-Hardelot</h1>
+                      <p id="detailsmaison">Superficie - 350m² - <strong>3 559 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                      <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemquatre">
+                <div class="product-top">
+                  <a id="test" data-fancybox="touquet5" href="../images/maisontouquet5/image1.webp"><img class="product-imagetouquet5"
+                      alt=""></a>
+                  <a class="none" data-fancybox="touquet5" href="../images/maisontouquet5/image2.webp"></a>
+                  <a class="none" data-fancybox="touquet5" href="../images/maisontouquet5/image3.webp"></a>
+                  <a class="none" data-fancybox="touquet5" href="../images/maisontouquet5/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>   
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Montreuil-sur-Mer</h1>
+                      <p id="detailsmaison">Superficie - 150m² - <strong>790 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemquatre">
+                <div class="product-top">
+                  <a id="test" data-fancybox="touquet6" href="../images/maisontouquet6/image1.webp"><img class="product-imagetouquet6"
+                      alt=""></a>
+                  <a class="none" data-fancybox="touquet6" href="../images/maisontouquet6/image2.webp"></a>
+                  <a class="none" data-fancybox="touquet6" href="../images/maisontouquet6/image3.webp"></a>
+                  <a class="none" data-fancybox="touquet6" href="../images/maisontouquet6/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4-5etoiles.png" alt="">
+                      <h2>4.5</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>   
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Le Touquet</h1>
+                      <p id="detailsmaison">Superficie - 266m² - <strong>2 890 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemquatre">
+                  <div class="product-top">
+                    <a id="test" data-fancybox="touquet7" href="../images/maisontouquet7/image1.webp"><img class="product-imagetouquet7"
+                        alt=""></a>
+                    <a class="none" data-fancybox="touquet7" href="../images/maisontouquet7/image2.webp"></a>
+                    <a class="none" data-fancybox="touquet7" href="../images/maisontouquet7/image3.webp"></a>
+                    <a class="none" data-fancybox="touquet7" href="../images/maisontouquet7/image4.webp"></a>
+                    <article>
+                      <div class="etoile">
+                        <img src="../images/4-5etoiles.png" alt="">
+                        <h2>4.5</h2>
+                      </div>
+                      <span id="darkspanaccueil"></span>   
+                      <div class="droiteslider" id="agents">
+                        <h1 id="darkh1maison">Maison Herly</h1>
+                        <p id="detailsmaison">Superficie - 220m² - <strong>990 000€</strong></p>
+                        <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                      <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+              <div class="slider-itemquatre">
+                <div class="product-top">
+                  <a id="test" data-fancybox="touquet8" href="../images/maisontouquet8/image1.webp"><img class="product-imagetouquet8"
+                      alt=""></a>
+                  <a class="none" data-fancybox="touquet8" href="../images/maisontouquet8/image2.webp"></a>
+                  <a class="none" data-fancybox="touquet8" href="../images/maisontouquet8/image3.webp"></a>
+                  <a class="none" data-fancybox="touquet8" href="../images/maisontouquet8/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>  
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Alette</h1>
+                      <p id="detailsmaison">Superficie - 385m² - <strong>4 190 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemquatre">
+                <div class="product-top">
+                  <a id="test" data-fancybox="touquet9" href="../images/maisontouquet9/image1.webp"><img class="product-imagetouquet9"
+                      alt=""></a>
+                  <a class="none" data-fancybox="touquet9" href="../images/maisontouquet9/image2.webp"></a>
+                  <a class="none" data-fancybox="touquet9" href="../images/maisontouquet9/image3.webp"></a>
+                  <a class="none" data-fancybox="touquet9" href="../images/maisontouquet9/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/5etoiles.png" alt="">
+                      <h2>5.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>  
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Lefaux</h1>
+                      <p id="detailsmaison">Superficie - 240m² - <strong>1 280 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="slider-itemquatre">
+                <div class="product-top">
+                  <a id="test" data-fancybox="touquet10" href="../images/maisontouquet10/image1.webp"><img class="product-imagetouquet10"
+                      alt=""></a>
+                  <a class="none" data-fancybox="touquet10" href="../images/maisontouquet10/image2.webp"></a>
+                  <a class="none" data-fancybox="touquet10" href="../images/maisontouquet10/image3.webp"></a>
+                  <a class="none" data-fancybox="touquet10" href="../images/maisontouquet10/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4etoiles.png" alt="">
+                      <h2>4.0</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span> 
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Saint Josse</h1>
+                      <p id="detailsmaison">Superficie - 195m² - <strong>900 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+
+
+
+          </div>
+        </div>
+
+        <div class="slider-buttons">
+          <button class="btn-prevquatre" id="prev4">prev</button>
+          <label class="arrow arrowleft" for="prev4"><img src="../images/flechedroit.png" alt="left"></label>
+          <button class="btn-nextquatre" id="next4"></button>
+          <label class="arrow" for="next4"><img src="../images/flechedroit.png" alt="right"></label>
+        </div>
+      </div>
+    </section>
+</section>
+
+
+
+
+<!-- SLIDER RESPONSIVE -------------------------------------------------------
+---------------------------------------------------------------------------------->
+
+<section class="containr_maisondeux" id="nosbien2">
+  <section class="maisonlilledeux" id="lillecentredeux">
+    <h1 id="titre_maisondeux">LILLE CENTRE</h1>
+    <p id="description_maisondeux">Liste des maisons disponibles</p>
+    <div class="wrapperdeux">
+      <div class="slider-containercinq">
+        <div class="slider-trackcinq ">
+
+
+          <div class="slider-itemcinq">
+            <div class="product-top">
+              <a data-fancybox="gallery lillecentre" href="../images/appart1image1.webp"><img class="product-imagelillecentre1" alt=""></a>
+              <a data-fancybox="gallery lillecentre" href="../images/appart1image2.webp"></a>
+              <a data-fancybox="gallery lillecentre" href="../images/appart1image3.webp"></a>
+              <a data-fancybox="gallery lillecentre" href="../images/appart1image4.webp"></a>
+              <article id="articlemaison">
+                <div class="etoile">
+                  <img src="../images/5etoiles.png" alt="">
+                  <h2 id="notemaisonaccueil">5.0</h2>
+                </div>
+                <span id="darkspanaccueil"></span>
+                <div class="droiteslider" id="agents">
+                  <h1 id="darkh1maison" class="h1articlemaison">Appartement Lille centre</h1>
+                  <p id="detailsmaison">Superficie - 106m² - <strong>498 000€</strong></p>
+                  <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="slider-itemcinq">
+            <div class="product-top">
+              <a data-fancybox="lillecentre2" href="../images/maison/image1.webp"><img
+                  class="product-imagelillecentre2" alt=""></a>
+              <a data-fancybox="lillecentre2" href="../images/maison/image2.webp"></a>
+              <a data-fancybox="lillecentre2" href="../images/maison/image3.webp"></a>
+              <a data-fancybox="lillecentre2" href="../images/maison/image4.webp"></a>
+              <article id="articlemaison2">
+                <div class="etoile">
+                  <img src="../images/4etoiles.png" alt="">
+                  <h2 id="notemaisonaccueil">4.0</h2>
+                </div>
+                <span id="darkspanaccueil"></span>
+                <div class="droiteslider" id="agents">
+                  <h1 id="darkh1maison">Maison Lille grand Palais</h1>
+                  <p id="detailsmaison">Superficie - 166m² - <strong>776 000€</strong></p>
+                  <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo2.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="slider-itemcinq">
+            <div class="product-top">
+              <a data-fancybox="lillecentre3" href="../images/maisonlille2/image1.webp"><img
+                  class="product-imagelillecentre3" alt=""></a>
+              <a data-fancybox="lillecentre3" href="../images/maisonlille2/image2.webp"></a>
+              <a data-fancybox="lillecentre3" href="../images/maisonlille2/image3.webp"></a>
+              <a data-fancybox="lillecentre3" href="../images/maisonlille2/image4.webp"></a>
+              <article>
+                <div class="etoile">
+                  <img src="../images/4-5etoiles.png" alt="">
+                  <h2>4.5</h2>
+                </div>
+                <span id="darkspanaccueil"></span>
+                <div class="droiteslider" id="agents">
+                  <h1 id="darkh1maison">Maison Tourcoing</h1>
+                  <p id="detailsmaison">Superficie - 130m² - <strong>920 000€</strong></p>
+                  <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="slider-itemcinq">
+            <div class="product-top">
+              <a data-fancybox="lillecentre4" href="../images/maisonlille4/image1.webp"><img
+                  class="product-imagelillecentre4" alt=""></a>
+              <a data-fancybox="lillecentre4" href="../images/maisonlille4/image2.webp"></a>
+              <a data-fancybox="lillecentre4" href="../images/maisonlille4/image3.webp"></a>
+              <a data-fancybox="lillecentre4" href="../images/maisonlille4/image4.webp"></a>
+              <article>
+                <div class="etoile">
+                  <img src="../images/4-5etoiles.png" alt="">
+                  <h2>4.5</h2>
+                </div>
+                <span id="darkspanaccueil"></span>
+                <div class="droiteslider" id="agents">
+                  <h1 id="darkh1maison">Maison Croix</h1>
+                  <p id="detailsmaison">Superficie - 115m² - <strong>660 000€</strong></p>
+                  <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="slider-itemcinq">
+            <div class="product-top">
+              <a data-fancybox="lillecentre5" href="../images/maisonlille5/image1.webp"><img class="product-imagelillecentre5"alt=""></a>
+              <a data-fancybox="lillecentre5" href="../images/maisonlille5/image2.webp"></a>
+              <a data-fancybox="lillecentre5" href="../images/maisonlille5/image3.webp"></a>
+              <a data-fancybox="lillecentre5" href="../images/maisonlille5/image4.webp"></a>
+              <article>
+                <div class="etoile">
+                  <img src="../images/4etoiles.png" alt="">
+                  <h2>4.0</h2>
+                </div>
+                <span id="darkspanaccueil"></span>
+                <div class="droiteslider" id="agents">
+                  <h1 id="darkh1maison">Maison Villneuve D'ascq</h1>
+                  <p id="detailsmaison">Superficie - 110m² - <strong>560 000€</strong></p>
+                  <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="slider-itemcinq">
+            <div class="product-top">
+              <a data-fancybox="lillecentre6" href="../images/maisonlille6/image1.webp"><img class="product-imagelillecentre6"alt=""></a>
+              <a data-fancybox="lillecentre6" href="../images/maisonlille6/image2.webp"></a>
+              <a data-fancybox="lillecentre6" href="../images/maisonlille6/image3.webp"></a>
+              <a data-fancybox="lillecentre6" href="../images/maisonlille6/image4.webp"></a>
+              <article>
+                <div class="etoile">
+                  <img src="../images/4etoiles.png" alt="">
+                  <h2>4.0</h2>
+                </div>
+                <span id="darkspanaccueil"></span>
+                <div class="droiteslider" id="agents">
+                  <h1 id="darkh1maison">Maison Roubaix</h1>
+                  <p id="detailsmaison">Superficie - 125m² - <strong>680 000€</strong></p>
+                  <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="slider-itemcinq">
+            <div class="product-top">
+              <a data-fancybox="lillecentre7" href="../images/maisonlille7/image1.webp"><img class="product-imagelillecentre7"alt=""></a>
+              <a data-fancybox="lillecentre7" href="../images/maisonlille7/image2.webp"></a>
+              <a data-fancybox="lillecentre7" href="../images/maisonlille7/image3.webp"></a>
+              <a data-fancybox="lillecentre7" href="../images/maisonlille7/image4.webp"></a>
+              <article>
+                <div class="etoile">
+                  <img src="../images/5etoiles.png" alt="">
+                  <h2>5.0</h2>
+                </div>
+                <span id="darkspanaccueil"></span>
+                <div class="droiteslider" id="agents">
+                  <h1 id="darkh1maison">Maison Lille centre</h1>
+                  <p id="detailsmaison">Superficie - 200m² - <strong>1 890 000€</strong></p>
+                  <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="slider-itemcinq">
+            <div class="product-top">
+              <a data-fancybox="lillecentre8" href="../images/maisonlille8/image1.webp"><img class="product-imagelillecentre8"alt=""></a>
+              <a data-fancybox="lillecentre8" href="../images/maisonlille8/image2.webp"></a>
+              <a data-fancybox="lillecentre8" href="../images/maisonlille8/image3.webp"></a>
+              <a data-fancybox="lillecentre8" href="../images/maisonlille8/image4.webp"></a>
+              <article>
+                <div class="etoile">
+                  <img src="../images/5etoiles.png" alt="">
+                  <h2>5.0</h2>
+                </div>
+                <span id="darkspanaccueil"></span>
+                <div class="droiteslider" id="agents">
+                  <h1 id="darkh1maison" >Maison Annoeullin</h1>
+                  <p id="detailsmaison">Superficie - 210m² - <strong>1 990 000€</strong></p>
+                  <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="slider-itemcinq">
+            <div class="product-top">
+              <a data-fancybox="lillecentre9" href="../images/maisonlille9/image1.webp"><img class="product-imagelillecentre9"alt=""></a>
+              <a data-fancybox="lillecentre9" href="../images/maisonlille9/image2.webp"></a>
+              <a data-fancybox="lillecentre9" href="../images/maisonlille9/image3.webp"></a>
+              <a data-fancybox="lillecentre9" href="../images/maisonlille9/image4.webp"></a>
+              <article>
+                <div class="etoile">
+                  <img src="../images/4-5etoiles.png" alt="">
+                  <h2>4.5</h2>
+                </div>
+                <span id="darkspanaccueil"></span>
+                <div class="droiteslider" id="agents">
+                  <h1 id="darkh1maison">Maison Saint Amand les eaux</h1>
+                  <p id="detailsmaison">Superficie - 115m² - <strong>510 000€</strong></p>
+                  <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="slider-itemcinq">
+            <div class="product-top">
+              <a data-fancybox="lillecentre10" href="../images/maisonlille10/image1.webp"><img class="product-imagelillecentre10"alt=""></a>
+              <a data-fancybox="lillecentre10" href="../images/maisonlille10/image2.webp"></a>
+              <a data-fancybox="lillecentre10" href="../images/maisonlille10/image3.webp"></a>
+              <a data-fancybox="lillecentre10" href="../images/maisonlille10/image4.webp"></a>
+              <article>
+                <div class="etoile">
+                  <img src="../images/5etoiles.png" alt="">
+                  <h2>5.0</h2>
+                </div>
+                <span id="darkspanaccueil"></span>
+                <div class="droiteslider" id="agents">
+                  <h1 id="darkh1maison">Maison Armentieres</h1>
+                  <p id="detailsmaison">Superficie - 180m² - <strong>1 150 000€</strong></p>
+                  <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-buttons">
+        <button class="btn-prevcinq" id="prev5">prev</button>
+        <label class="arrow arrowleft" for="prev5"><img src="../images/flechedroit.png" alt="left"></label>
+        <button class="btn-nextcinq" id="next5"></button>
+        <label class="arrow" for="next5"><img src="../images/flechedroit.png" alt="right"></label>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="maisonlilledeux" id="lillemetrodeux">
+    <h1 id="titre_maisondeux">LILLE METROPOLE</h1>
+    <p id="description_maisondeux">Liste des maisons disponibles</p>
+    <div class="wrapperdeux">
+      <div class="slider-containersix">
+        <div class="slider-tracksix ">
+          <div class="slider-itemsix">
+            <div class="product-top">
+        <a data-fancybox="lillemetro1" href="../images/lillemetro1/image1.webp"><img class="product-imagelillemetro1"alt=""></a>
+        <a data-fancybox="lillemetro1" href="../images/lillemetro1/image2.webp"></a>
+        <a data-fancybox="lillemetro1" href="../images/lillemetro1/image3.webp"></a>
+        <a data-fancybox="lillemetro1" href="../images/lillemetro1/image4.webp"></a>
+        <article>
+          <div class="etoile">
+            <img src="../images/4etoiles.png" alt="">
+            <h2>4.0</h2>
+          </div>
+          <span id="darkspanaccueil"></span>
+          <div class="droiteslider" id="agents">
+            <h1 id="darkh1maison">Maison La Chapelle D'Armentieres</h1>
+            <p id="detailsmaison">Superficie - 150m² - <strong>1 290 000€</strong></p>
+            <a href="" class="boutontelecharger">Telecharger le PDF</a>
+          <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+          </div>
+        </article>
+      </div>
+          </div>
+
+            <div class="slider-itemsix">
+              <div class="product-top">
+                <a data-fancybox="lillemetro2" href="../images/lillemetro2/image1.webp"><img class="product-imagelillemetro2"alt=""></a>
+                <a data-fancybox="lillemetro2" href="../images/lillemetro2/image2.webp"></a>
+                <a data-fancybox="lillemetro2" href="../images/lillemetro2/image3.webp"></a>
+                <a data-fancybox="lillemetro2" href="../images/lillemetro2/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/5etoiles.png" alt="">
+                    <h2>5.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Lomme</h1>
+                    <p id="detailsmaison">Superficie - 186m² - <strong>3 540 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemsix">
+              <div class="product-top">
+                <a data-fancybox="lillemetro3" href="../images/lillemetro3/image1.webp"><img class="product-imagelillemetro3"alt=""></a>
+                <a data-fancybox="lillemetro3" href="../images/lillemetro3/image2.webp"></a>
+                <a data-fancybox="lillemetro3" href="../images/lillemetro3/image3.webp"></a>
+                <a data-fancybox="lillemetro3" href="../images/lillemetro3/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Hem</h1>
+                    <p id="detailsmaison">Superficie - 136m² - <strong>590 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemsix">
+              <div class="product-top">
+                <a data-fancybox="lillemetro4" href="../images/lillemetro4/image1.webp"><img class="product-imagelillemetro4"alt=""></a>
+                <a data-fancybox="lillemetro4" href="../images/lillemetro4/image2.webp"></a>
+                <a data-fancybox="lillemetro4" href="../images/lillemetro4/image3.webp"></a>
+                <a data-fancybox="lillemetro4" href="../images/lillemetro4/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Seclin</h1>
+                    <p id="detailsmaison">Superficie - 124m² - <strong>460 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemsix">
+              <div class="product-top">
+                <a data-fancybox="lillemetro5" href="../images/lillemetro5/image1.webp"><img class="product-imagelillemetro5"alt=""></a>
+                <a data-fancybox="lillemetro5" href="../images/lillemetro5/image2.webp"></a>
+                <a data-fancybox="lillemetro5" href="../images/lillemetro5/image3.webp"></a>
+                <a data-fancybox="lillemetro5" href="../images/lillemetro5/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Gondecourt</h1>
+                    <p id="detailsmaison">Superficie - 115m² - <strong>540 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemsix">
+              <div class="product-top">
+                <a data-fancybox="lillemetro6" href="../images/lillemetro6/image1.webp"><img class="product-imagelillemetro6"alt=""></a>
+                <a data-fancybox="lillemetro6" href="../images/lillemetro6/image2.webp"></a>
+                <a data-fancybox="lillemetro6" href="../images/lillemetro6/image3.webp"></a>
+                <a data-fancybox="lillemetro6" href="../images/lillemetro6/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Mouveaux</h1>
+                    <p id="detailsmaison">Superficie - 140m² - <strong>1 210 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemsix">
+              <div class="product-top">
+                <a data-fancybox="lillemetro7" href="../images/lillemetro7/image1.webp"><img class="product-imagelillemetro7"alt=""></a>
+                <a data-fancybox="lillemetro7" href="../images/lillemetro7/image2.webp"></a>
+                <a data-fancybox="lillemetro7" href="../images/lillemetro7/image3.webp"></a>
+                <a data-fancybox="lillemetro7" href="../images/lillemetro7/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Faches Thumesnil </h1>
+                    <p id="detailsmaison">Superficie - 117m² - <strong>720 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemsix">
+              <div class="product-top">
+                <a data-fancybox="lillemetro8" href="../images/lillemetro8/image1.webp"><img class="product-imagelillemetro8"alt=""></a>
+                <a data-fancybox="lillemetro8" href="../images/lillemetro8/image2.webp"></a>
+                <a data-fancybox="lillemetro8" href="../images/lillemetro8/image3.webp"></a>
+                <a data-fancybox="lillemetro8" href="../images/lillemetro8/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/5etoiles.png" alt="">
+                    <h2>5.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Carnin</h1>
+                    <p id="detailsmaison">Superficie - 156m² - <strong>1 500 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemsix">
+              <div class="product-top">
+                <a data-fancybox="lillemetro9" href="../images/lillemetro9/image1.webp"><img class="product-imagelillemetro9"alt=""></a>
+                <a data-fancybox="lillemetro9" href="../images/lillemetro9/image2.webp"></a>
+                <a data-fancybox="lillemetro9" href="../images/lillemetro9/image3.webp"></a>
+                <a data-fancybox="lillemetro9" href="../images/lillemetro9/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Tourcoing</h1>
+                    <p id="detailsmaison">Superficie - 226m² - <strong>2 490 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemsix">
+              <div class="product-top">
+                <a data-fancybox="lillemetro10" href="../images/lillemetro10/image1.webp"><img class="product-imagelillemetro10"alt=""></a>
+                <a data-fancybox="lillemetro10" href="../images/lillemetro10/image2.webp"></a>
+                <a data-fancybox="lillemetro10" href="../images/lillemetro10/image3.webp"></a>
+                <a data-fancybox="lillemetro10" href="../images/lillemetro10/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Lille</h1>
+                    <p id="detailsmaison">Superficie - 276m² - <strong>4 210 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+
+
+
+        </div>
+      </div>
+
+      <div class="slider-buttons">
+        <button class="btn-prevsix" id="prev6">prev</button>
+        <label class="arrow arrowleft" for="prev6"><img src="../images/flechedroit.png" alt="left"></label>
+        <button class="btn-nextsix" id="next6"></button>
+        <label class="arrow" for="next6"><img src="../images/flechedroit.png" alt="right"></label>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="maisonlilledeux" id="arrasdeux">
+    <h1 id="titre_maisondeux">ARRAS</h1>
+    <p id="description_maisondeux">Liste des maisons disponibles</p>
+    <div class="wrapperdeux">
+      <div class="slider-containersept">
+        <div class="slider-tracksept">
+          <div class="slider-itemsept">
+              <div class="product-top">
+                <a id="test" data-fancybox="arras" href="../images/maisonarras1/image1.webp"><img class="product-imagearras1"alt=""></a>
+                <a class="none" data-fancybox="arras" href="../images/maisonarras1/image2.webp"></a>
+                <a class="none" data-fancybox="arras" href="../images/maisonarras1/image3.webp"></a>
+                <a class="none" data-fancybox="arras" href="../images/maisonarras1/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/5etoiles.png" alt="">
+                    <h2>5.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Saint Laurent Blangy</h1>
+                    <p id="detailsmaison">Superficie - 116m² - <strong>2 535 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+          </div>
+
+            <div class="slider-itemsept">
+              <div class="product-top">
+                <a id="test" data-fancybox="arras2" href="../images/maisonarras2/image1.webp"><img class="product-imagearras2"
+                    alt=""></a>
+                <a class="none" data-fancybox="arras2" href="../images/maisonarras2/image2.webp"></a>
+                <a class="none" data-fancybox="arras2" href="../images/maisonarras2/image3.webp"></a>
+                <a class="none" data-fancybox="arras2" href="../images/maisonarras2/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Arras</h1>
+                    <p id="detailsmaison">Superficie - 130m² - <strong>885 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemsept">
+              <div class="product-top">
+                <a id="test" data-fancybox="arras3" href="../images/maisonarras3/image1.webp"><img class="product-imagearras3"
+                    alt=""></a>
+                <a class="none" data-fancybox="arras3" href="../images/maisonarras3/image2.webp"></a>
+                <a class="none" data-fancybox="arras3" href="../images/maisonarras3/image3.webp"></a>
+                <a class="none" data-fancybox="arras3" href="../images/maisonarras3/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4-5etoiles.png" alt="">
+                    <h2>4.5</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>                    
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Sainte-Cathrine </h1>
+                    <p id="detailsmaison">Superficie - 206m² - <strong>2 890 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemsept">
+              <div class="product-top">
+                <a id="test" data-fancybox="arras4" href="../images/maisonarras4/image1.webp"><img class="product-imagearras4"
+                    alt=""></a>
+                <a class="none" data-fancybox="arras4" href="../images/maisonarras4/image2.webp"></a>
+                <a class="none" data-fancybox="arras4" href="../images/maisonarras4/image3.webp"></a>
+                <a class="none" data-fancybox="arras4" href="../images/maisonarras4/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/5etoiles.png" alt="">
+                    <h2>5.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>   
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Tilloy-les-Mofflaines</h1>
+                    <p id="detailsmaison">Superficie - 150m² - <strong>2 480 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemsept">
+              <div class="product-top">
+                <a id="test" data-fancybox="arras5" href="../images/maisonarras5/image1.webp"><img class="product-imagearras5"
+                    alt=""></a>
+                <a class="none" data-fancybox="arras5" href="../images/maisonarras5/image2.webp"></a>
+                <a class="none" data-fancybox="arras5" href="../images/maisonarras5/image3.webp"></a>
+                <a class="none" data-fancybox="arras5" href="../images/maisonarras5/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span> 
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Dainville </h1>
+                    <p id="detailsmaison">Superficie - 190m² - <strong>1 600 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemsept">
+              <div class="product-top">
+        <a id="test" data-fancybox="arras6" href="../images/maisonarras6/image1.webp"><img class="product-imagearras6"
+            alt=""></a>
+        <a class="none" data-fancybox="arras6" href="../images/maisonarras6/image2.webp"></a>
+        <a class="none" data-fancybox="arras6" href="../images/maisonarras6/image3.webp"></a>
+        <a class="none" data-fancybox="arras6" href="../images/maisonarras6/image4.webp"></a>
+        <article>
+          <div class="etoile">
+            <img src="../images/4etoiles.png" alt="">
+            <h2>4.0</h2>
+          </div>
+          <span id="darkspanaccueil"></span> 
+          <div class="droiteslider" id="agents">
+            <h1 id="darkh1maison">Maison Achicourt</h1>
+            <p id="detailsmaison">Superficie - 146m² - <strong>1 340 000€</strong></p>
+            <a href="" class="boutontelecharger">Telecharger le PDF</a>
+          <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+          </div>
+        </article>
+      </div>
+            </div>
+
+            <div class="slider-itemsept">
+              <div class="product-top">
+                <a id="test" data-fancybox="arras7" href="../images/maisonarras7/image1.webp"><img class="product-imagearras7"
+                    alt=""></a>
+                <a class="none" data-fancybox="arras7" href="../images/maisonarras7/image2.webp"></a>
+                <a class="none" data-fancybox="arras7" href="../images/maisonarras7/image3.webp"></a>
+                <a class="none" data-fancybox="arras7" href="../images/maisonarras7/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span> 
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Feuchy</h1>
+                    <p id="detailsmaison">Superficie - 176m² - <strong>540 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemsept">
+              <div class="product-top">
+                <a id="test" data-fancybox="arras8" href="../images/maisonarras8/image1.webp"><img class="product-imagearras8"
+                    alt=""></a>
+                <a class="none" data-fancybox="arras8" href="../images/maisonarras8/image2.webp"></a>
+                <a class="none" data-fancybox="arras8" href="../images/maisonarras8/image3.webp"></a>
+                <a class="none" data-fancybox="arras8" href="../images/maisonarras8/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span> 
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Arras</h1>
+                    <p id="detailsmaison">Superficie - 310m² - <strong>4 310 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemsept">
+              <div class="product-top">
+                <a id="test" data-fancybox="arras9" href="../images/maisonarras9/image1.webp"><img class="product-imagearras9"
+                    alt=""></a>
+                <a class="none" data-fancybox="arras9" href="../images/maisonarras9/image2.webp"></a>
+                <a class="none" data-fancybox="arras9" href="../images/maisonarras9/image3.webp"></a>
+                <a class="none" data-fancybox="arras9" href="../images/maisonarras9/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>                     
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Saint Nicolas</h1>
+                    <p id="detailsmaison">Superficie - 166m² - <strong>646 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemsept">
+              <div class="product-top">
+                <a id="test" data-fancybox="arras10" href="../images/maisonarras10/image1.webp"><img class="product-imagearras10"
+                    alt=""></a>
+                <a class="none" data-fancybox="arras10" href="../images/maisonarras10/image2.webp"></a>
+                <a class="none" data-fancybox="arras10" href="../images/maisonarras10/image3.webp"></a>
+                <a class="none" data-fancybox="arras10" href="../images/maisonarras10/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>  
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Arras</h1>
+                    <p id="detailsmaison">Superficie - 186m² - <strong>890 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+
+
+
+        </div>
+      </div>
+
+      <div class="slider-buttons">
+        <button class="btn-prevsept" id="prev7">prev</button>
+        <label class="arrow arrowleft" for="prev7"><img src="../images/flechedroit.png" alt="left"></label>
+        <button class="btn-nextsept" id="next7"></button>
+        <label class="arrow" for="next7"><img src="../images/flechedroit.png" alt="right"></label>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="maisonlilledeux" id="touquetdeux">
+    <h1 id="titre_maisondeux">LE TOUQUET</h1>
+    <p id="description_maisondeux">Liste des maisons disponibles</p>
+    <div class="wrapperdeux">
+      <div class="slider-containerhuit">
+        <div class="slider-trackhuit">
+          <div class="slider-itemhuit">
+            <div class="product-top">
+              <a id="test" data-fancybox="touquet" href="../images/maisontouquet1/image1.webp"><img class="product-imagetouquet1"
+                  alt=""></a>
+              <a class="none" data-fancybox="touquet" href="../images/maisontouquet1/image2.webp"></a>
+              <a class="none" data-fancybox="touquet" href="../images/maisontouquet1/image3.webp"></a>
+              <a class="none" data-fancybox="touquet" href="../images/maisontouquet1/image4.webp"></a>
+              <article>
+                <div class="etoile">
+                  <img src="../images/4-5etoiles.png" alt="">
+                  <h2>4.5</h2>
+                </div>
+                <span id="darkspanaccueil"></span>  
+                <div class="droiteslider" id="agents">
+                  <h1 id="darkh1maison">Maison Le Touquet</h1>
+                  <p id="detailsmaison">Superficie - 235m² - <strong>1 390 000€</strong></p>
+                  <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+            <div class="slider-itemhuit">
+              <div class="product-top">
+                <a id="test" data-fancybox="touquet2" href="../images/maisontouquet2/image1.webp"><img class="product-imagetouquet2"
+                    alt=""></a>
+                <a class="none" data-fancybox="touquet2" href="../images/maisontouquet2/image2.webp"></a>
+                <a class="none" data-fancybox="touquet2" href="../images/maisontouquet2/image3.webp"></a>
+                <a class="none" data-fancybox="touquet2" href="../images/maisontouquet2/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4-5etoiles.png" alt="">
+                    <h2>4.5</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Cucq</h1>
+                    <p id="detailsmaison">Superficie - 198m² - <strong>995 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemhuit">
+              <div class="product-top">
+                <a id="test" data-fancybox="touquet3" href="../images/maisontouquet3/image1.webp"><img class="product-imagetouquet3"
+                    alt=""></a>
+                <a class="none" data-fancybox="touquet3" href="../images/maisontouquet3/image2.webp"></a>
+                <a class="none" data-fancybox="touquet3" href="../images/maisontouquet3/image3.webp"></a>
+                <a class="none" data-fancybox="touquet3" href="../images/maisontouquet3/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>                   
+                   <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Ecuires</h1>
+                    <p id="detailsmaison">Superficie - 225m² - <strong>1 450 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemhuit">
+              <div class="product-top">
+                <a id="test" data-fancybox="touquet4" href="../images/maisontouquet4/image1.webp"><img class="product-imagetouquet4"
+                    alt=""></a>
+                <a class="none" data-fancybox="touquet4" href="../images/maisontouquet4/image2.webp"></a>
+                <a class="none" data-fancybox="touquet4" href="../images/maisontouquet4/image3.webp"></a>
+                <a class="none" data-fancybox="touquet4" href="../images/maisontouquet4/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4-5etoiles.png" alt="">
+                    <h2>4.5</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>                   
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Neufchâtel-Hardelot</h1>
+                    <p id="detailsmaison">Superficie - 350m² - <strong>3 559 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemhuit">
+              <div class="product-top">
+                <a id="test" data-fancybox="touquet5" href="../images/maisontouquet5/image1.webp"><img class="product-imagetouquet5"
+                    alt=""></a>
+                <a class="none" data-fancybox="touquet5" href="../images/maisontouquet5/image2.webp"></a>
+                <a class="none" data-fancybox="touquet5" href="../images/maisontouquet5/image3.webp"></a>
+                <a class="none" data-fancybox="touquet5" href="../images/maisontouquet5/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>   
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Montreuil-sur-Mer</h1>
+                    <p id="detailsmaison">Superficie - 150m² - <strong>790 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemhuit">
+              <div class="product-top">
+                <a id="test" data-fancybox="touquet6" href="../images/maisontouquet6/image1.webp"><img class="product-imagetouquet6"
+                    alt=""></a>
+                <a class="none" data-fancybox="touquet6" href="../images/maisontouquet6/image2.webp"></a>
+                <a class="none" data-fancybox="touquet6" href="../images/maisontouquet6/image3.webp"></a>
+                <a class="none" data-fancybox="touquet6" href="../images/maisontouquet6/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4-5etoiles.png" alt="">
+                    <h2>4.5</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>   
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Le Touquet</h1>
+                    <p id="detailsmaison">Superficie - 266m² - <strong>2 890 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemhuit">
+                <div class="product-top">
+                  <a id="test" data-fancybox="touquet7" href="../images/maisontouquet7/image1.webp"><img class="product-imagetouquet7"
+                      alt=""></a>
+                  <a class="none" data-fancybox="touquet7" href="../images/maisontouquet7/image2.webp"></a>
+                  <a class="none" data-fancybox="touquet7" href="../images/maisontouquet7/image3.webp"></a>
+                  <a class="none" data-fancybox="touquet7" href="../images/maisontouquet7/image4.webp"></a>
+                  <article>
+                    <div class="etoile">
+                      <img src="../images/4-5etoiles.png" alt="">
+                      <h2>4.5</h2>
+                    </div>
+                    <span id="darkspanaccueil"></span>   
+                    <div class="droiteslider" id="agents">
+                      <h1 id="darkh1maison">Maison Herly</h1>
+                      <p id="detailsmaison">Superficie - 220m² - <strong>990 000€</strong></p>
+                      <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                    <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+            <div class="slider-itemhuit">
+              <div class="product-top">
+                <a id="test" data-fancybox="touquet8" href="../images/maisontouquet8/image1.webp"><img class="product-imagetouquet8"
+                    alt=""></a>
+                <a class="none" data-fancybox="touquet8" href="../images/maisontouquet8/image2.webp"></a>
+                <a class="none" data-fancybox="touquet8" href="../images/maisontouquet8/image3.webp"></a>
+                <a class="none" data-fancybox="touquet8" href="../images/maisontouquet8/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>  
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Alette</h1>
+                    <p id="detailsmaison">Superficie - 385m² - <strong>4 190 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemhuit">
+              <div class="product-top">
+                <a id="test" data-fancybox="touquet9" href="../images/maisontouquet9/image1.webp"><img class="product-imagetouquet9"
+                    alt=""></a>
+                <a class="none" data-fancybox="touquet9" href="../images/maisontouquet9/image2.webp"></a>
+                <a class="none" data-fancybox="touquet9" href="../images/maisontouquet9/image3.webp"></a>
+                <a class="none" data-fancybox="touquet9" href="../images/maisontouquet9/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/5etoiles.png" alt="">
+                    <h2>5.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span>  
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Lefaux</h1>
+                    <p id="detailsmaison">Superficie - 240m² - <strong>1 280 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-itemhuit">
+              <div class="product-top">
+                <a id="test" data-fancybox="touquet10" href="../images/maisontouquet10/image1.webp"><img class="product-imagetouquet10"
+                    alt=""></a>
+                <a class="none" data-fancybox="touquet10" href="../images/maisontouquet10/image2.webp"></a>
+                <a class="none" data-fancybox="touquet10" href="../images/maisontouquet10/image3.webp"></a>
+                <a class="none" data-fancybox="touquet10" href="../images/maisontouquet10/image4.webp"></a>
+                <article>
+                  <div class="etoile">
+                    <img src="../images/4etoiles.png" alt="">
+                    <h2>4.0</h2>
+                  </div>
+                  <span id="darkspanaccueil"></span> 
+                  <div class="droiteslider" id="agents">
+                    <h1 id="darkh1maison">Maison Saint Josse</h1>
+                    <p id="detailsmaison">Superficie - 195m² - <strong>900 000€</strong></p>
+                    <a href="" class="boutontelecharger">Telecharger le PDF</a>
+                  <a href="immo.html" class="boutonmaison">Visite Réalité Virtuelle</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+
+
+
+        </div>
+      </div>
+
+      <div class="slider-buttons">
+        <button class="btn-prevhuit" id="prev8">prev</button>
+        <label class="arrow arrowleft" for="prev8"><img src="../images/flechedroit.png" alt="left"></label>
+        <button class="btn-nexthuit" id="next8"></button>
+        <label class="arrow" for="next8"><img src="../images/flechedroit.png" alt="right"></label>
+      </div>
+    </div>
+  </section>
+      
+
+
+</section>
+
+
+
+<div class="container_agent" id="agents">
+  <div class="b">
+      <div id="a">
+         <p id="text" class="textagent">DUVAL Simon<br><br><span id="text2">Téléphone : 07 89 77 56 41<br>E-mail : D.Simon@gmail.com<br>Secteur : Lille centre</span></p>
+      </div>
+      <div id="boite">
+         <p>DUVAL Simon<br>
+          Ville : Lille centre</p>
+      </div>
   </div>
-
+  <div class="b">
+      <div id="c">
+        <p id="text3" class="textagent">Karadoc<br><br><span id="text4">Téléphone : 06 56 98 71 22<br>E-mail : Karadoc@gmail.com<br>Secteur : Lille métropole</span></p> 
+      </div>
+      <div id="boite2">
+         <p>Karadoc de Vannes<br>
+          Ville : Lille métropole</p>
+      </div>
+  </div>
+  <div class="b">
+    <div id="d">
+      <p id="text5" class="textagent">VIEL Simone<br><br><span id="text6">Téléphone : 06 79 87 23 22<br>E-mail : SimoneV@gmail.com<br>Secteur : Arras</span></p> 
+    </div>
+    <div id="boite3">
+       <p>VEIL Simone<br>
+        Ville : Arras</p>
+    </div>
+  </div>
+    <div class="b">
+      <div id="e">
+        <p id="text7" class="textagent">DUPONT Martin<br><br><span id="text8">Téléphone : 06 38 35 21 42 <br>E-mail :DupontM@gmail.com<br>Secteur : Le Touquet</span></p> 
+      </div>
+      <div id="boite4">
+         <p>VEIL Simone<br>
+          Ville : Arras</p>
+      </div>
+    </div>
 </div>
 
-<div class="avisclient">
-  <div class="centeravis">
-    <h1>AVIS CLIENTS</h1>
-    <div class="note">
-      <h2>5.0</h2>
-      <img src="./assets/5etoiles.png" alt="5 étoiles">
-      <p>(6 avis)</p>
+
+
+  <footer id="trouver">
+    <div class="container_footer">
+      <div class="trouver">
+        <h1 id="titrefooter">OU NOUS TROUVER</h1>
+        <h2 id="iframlille" class="iframdark">AGENCE DE LILLE</h2>
+        <p>Adresse : 140 Rue Colbrant 59000 LILLE</p>
+        <P>Tél. : 03.20.76.84.01</P>
+        <br>
+        <h2 id="iframarras" class="iframdark">AGENCE D'ARRAS</h2>
+        <p>Adresse : 90 Rue du Canon D'or 62000 ARRAS</p>
+        <P>Tél. : 03.21.67.84.00</P>
+        <br>
+        <h2 id="iframtouquet" class="iframdark">AGENCE DE LE TOUQUET</h2>
+        <p>Adresse : 16 avenue John Wihtley 62520 LE TOUQUET</p>
+        <P>Tél. : 03.21.95.62.00</P>
+        <br>
+      </div>
+
+      <div class="map maplille">
+        <iframe class="mapdark"
+          src="https://www.google.com/maps/d/embed?mid=1TAh-VJWU_QIxNZsUha6rdB4Gj4FiNpU&ehbc=2E312F"></iframe>
+      </div>
+
+      <div class="map maparras">
+        <iframe class="mapdark"
+          src="https://www.google.com/maps/d/embed?mid=1NUg4tCGRNwfyyRsAk0JO39vdGWYjocc&ehbc=2E312F"></iframe>
+      </div>
+
+      <div class="map maptouquet">
+        <iframe class="mapdark"
+          src="https://www.google.com/maps/d/embed?mid=1o-jLHn0K4IpWoRuke5BzBHhQoWfQxpQ&ehbc=2E312F"></iframe>
+      </div>
     </div>
 
-    <span id="gris"></span>
+    <div class="copyright">
+      <center><img id="logofooter" src="../images/logo.png" alt=""></center>
+      <center><img id="logofooterdark" src="../images/logogold.png" alt=""></center>
+      <p class="copyrightdark">Développé par AFCI © Copyrights 2023 - <a href="" class="mentiondark">Mentions
+          légales</a></p>
+    </div>
+  </footer>
 
+  <a class="none" href="" id="scrolltop"></a>
 
-  </div>
-
-  <div class="centerarticle">
-    <article class="alberick">
-      <div class="gauche">
-        <img src="./assetss/5etoiles.png" class="étoilearticle">
-        <img src="./assetss/icone avatar/1.png" class="avatar">
-        <p class="nameavis">Nadège CHOQUET</p>
-      </div>
-
-      <div class="droite">
-        <h2>Eloge d'un client satisfait de Yanis</h2>
-        <p>Le prestataire est toujours disponible et à l'écoute de nos sollicitations. Egalement de très bons <br>
-          conseils. Il est très professionnel et connaît l'ensemble des travaux et démarches à effectuer. <br>
-          Travail des intervenants de très bonne qualité.</p>
-
-        <p class="date">Ajouté le 20-02-2023</p>
-      </div>
-
-    </article>
-
-    <article class="alberick">
-      <div class="gauche">
-        <img src="./assets/5etoiles.png" class="étoilearticle">
-        <img src="./assets/icone avatar/9.png" class="avatar">
-        <p class="nameavis">Isabelle DELANOY</p>
-      </div>
-
-      <div class="droite">
-        <h2>Eloge d'un client satisfait de Yanis</h2>
-        <p>Le prestataire est toujours disponible et à l'écoute de nos sollicitations. Egalement de très bons <br>
-          conseils. Il est très professionnel et connaît l'ensemble des travaux et démarches à effectuer. <br>
-          Travail des intervenants de très bonne qualité.</p>
-
-        <p class="date">Ajouté le 20-02-2023</p>
-      </div>
-
-    </article>
-
-
-    <article class="alberick">
-      <div class="gauche">
-        <img src="./assets/4-5etoiles.png" class="étoilearticle">
-        <img src="./assets/icone avatar/16.png" class="avatar">
-        <p class="nameavis">Michel POLNAREF</p>
-      </div>
-
-      <div class="droite">
-        <h2>Eloge d'un client satisfait de Yanis</h2>
-        <p>Le prestataire est toujours disponible et à l'écoute de nos sollicitations. Egalement de très bons <br>
-          conseils. Il est très professionnel et connaît l'ensemble des travaux et démarches à effectuer. <br>
-          Travail des intervenants de très bonne qualité.</p>
-
-        <p class="date">Ajouté le 20-02-2023</p>
-      </div>
-
-    </article>
-
-
-
-
-  </div>
-
-
-  <div class="centerarticle2">
-    <article class="alberick">
-      <div class="gauche">
-        <img src="./assets/5etoiles.png" class="étoilearticle">
-        <img src="./assets/icone avatar/3.png" class="avatar">
-        <p class="nameavis">Francianne BOQUET</p>
-      </div>
-
-      <div class="droite">
-        <h2>Eloge d'un client satisfait de Yanis</h2>
-        <p>Le prestataire est toujours disponible et à l'écoute de nos sollicitations. Egalement de très bons <br>
-          conseils. Il est très professionnel et connaît l'ensemble des travaux et démarches à effectuer. <br>
-          Travail des intervenants de très bonne qualité.</p>
-
-        <p class="date">Ajouté le 20-02-2023</p>
-      </div>
-
-    </article>
-
-    <article class="alberick">
-      <div class="gauche">
-        <img src="./assets/4-5etoiles.png" class="étoilearticle">
-        <img src="./assets/icone avatar/19.png" class="avatar">
-        <p class="nameavis">Marie DUPLOUIS</p>
-      </div>
-
-      <div class="droite">
-        <h2>Eloge d'un client satisfait de Yanis</h2>
-        <p>Le prestataire est toujours disponible et à l'écoute de nos sollicitations. Egalement de très bons <br>
-          conseils. Il est très professionnel et connaît l'ensemble des travaux et démarches à effectuer. <br>
-          Travail des intervenants de très bonne qualité.</p>
-
-        <p class="date">Ajouté le 20-02-2023</p>
-      </div>
-
-    </article>
-
-
-    <article class="alberick">
-      <div class="gauche">
-        <img src="./assets/5etoiles.png" class="étoilearticle">
-        <img src="./assets/icone avatar/6.png" class="avatar">
-        <p class="nameavis">Adrian SKILLYFLOW</p>
-      </div>
-
-      <div class="droite">
-        <h2>Eloge d'un client satisfait de Yanis</h2>
-        <p>Le prestataire est toujours disponible et à l'écoute de nos sollicitations. Egalement de très bons <br>
-          conseils. Il est très professionnel et connaît l'ensemble des travaux et démarches à effectuer. <br>
-          Travail des intervenants de très bonne qualité.</p>
-
-        <p class="date">Ajouté le 20-02-2023</p>
-      </div>
-
-    </article>
-
-
-
-
-  </div>
-
-  <center><span id="voirplus" class="plusmoins">Voir plus</span></center>
-
-  <center><span id="voirmoins" class="plusmoins">Voir moins</span></center>
-
-</div>
-
-
-
-
-
-<footer class="footer2">
-  <div class="copyright">
-    <center><img id="logofooter" src="./assets/logo.png" alt=""></center>
-    <center><img id="logofooterdark" src="./assets/logogold.png" alt=""></center>
-    <p class="copyrightdark">Développé par AFCI © Copyrights 2023 - <a href="" class="mentiondark">Mentions légales</a></p>
-</div>
-</footer>
-
-
-<a class="none" href="" id="scrolltop"></a>
 </body>
+
 </html>
